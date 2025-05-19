@@ -1,4 +1,5 @@
-0 Kourtney
-1 Kim
+0 kim
+1 kourtney
 2 Khloe
+
 
