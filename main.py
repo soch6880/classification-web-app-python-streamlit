@@ -9,7 +9,7 @@ from util import classify, set_background
 set_background('./bgs/bg5.png')
 
 # set title
-st.title('Pneumonia classification')
+st.title('Kardashian classification')
 
 # set header
 st.header('Please upload a chest X-ray image')
@@ -18,7 +18,7 @@ st.header('Please upload a chest X-ray image')
 file = st.file_uploader('', type=['jpeg', 'jpg', 'png'])
 
 # load classifier
-model = load_model('./model/pneumonia_classifier.h5')
+model = load_model('./model/keras_model.h5')
 
 # load class names
 with open('./model/labels.txt', 'r') as f:
